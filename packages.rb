@@ -1,3 +1,4 @@
+pkg 'automake', :for => :linux
 pkg 'erlang-dev', :for => :linux
 pkg 'erlang-nox', :for => :linux
 pkg 'libicu-dev', :for => :linux
