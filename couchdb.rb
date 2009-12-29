@@ -5,4 +5,5 @@ src 'couchdb' do
   preconfigure do
     shell './bootstrap'
   end
+  provides 'couchdb'
 end
