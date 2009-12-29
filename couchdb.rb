@@ -5,5 +5,7 @@ src 'couchdb' do
   preconfigure do
     shell './bootstrap'
   end
-  provides 'couchdb'
+  install do
+    shell 'make install', :sudo => true
+  end
 end
