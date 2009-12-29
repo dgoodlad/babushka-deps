@@ -14,8 +14,8 @@ dep 'couchdb startup script' do
   requires 'couchdb'
   met? { shell("rcconf --list").val_for('couchdb') == 'on' }
   meet :on => :linux do
-    sudo "ln -sf #{prefix}/etc/init.d/couchdb /etc/init.d/couchdb"
-    sudo "ln -sf #{prefix}/etc/default/couchdb /etc/default/couchdb"
+    sudo "ln -sf /usr/local/etc/init.d/couchdb /etc/init.d/couchdb"
+    sudo "ln -sf /usr/local/etc/default/couchdb /etc/default/couchdb"
     sudo 'update-rc.d couchdb defaults'
   end
 end
