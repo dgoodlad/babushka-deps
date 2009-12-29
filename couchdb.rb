@@ -25,7 +25,7 @@ def couchdb_running?
 end
 
 dep 'couchdb running' do
-  requires 'webserver configured', 'webserver startup script'
+  requires 'couchdb startup script'
   met? {
     returning couchdb_running? do |result|
       result "There is #{result ? 'something' : 'nothing'} listening on #{result ? result.scan(/[0-9.*]+[.:]5984/).first : 'port 5984'}", :result => result
