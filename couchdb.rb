@@ -1,5 +1,5 @@
 src 'couchdb' do
-  requires 'build-essential', 'help2man', 'libtool', 'autoconf', 'automake',
+  requires 'help2man', 'libtool', 'autoconf', 'automake',
            'erlang-dev', 'erlang-nox', 'libicu-dev', 'libmozjs-dev', 'libcurl4-openssl-dev'
   source 'git://git.apache.org/couchdb.git'
   preconfigure do
@@ -11,13 +11,19 @@ src 'couchdb' do
 end
 
 dep 'couchdb startup script' do
-  requires 'couchdb'
+  requires 'couchdb', 'couchdb user'
   met? { shell("rcconf --list").val_for('couchdb') == 'on' }
   meet :on => :linux do
     sudo "ln -sf /usr/local/etc/init.d/couchdb /etc/init.d/couchdb"
     sudo "ln -sf /usr/local/etc/default/couchdb /etc/default/couchdb"
     sudo 'update-rc.d couchdb defaults'
   end
+end
+
+dep 'couchdb user' do
+  set :username, 'couchdb'
+  var :home_base, '/usr/local/var/run'
+  requires 'user exists'
 end
 
 def couchdb_running?
