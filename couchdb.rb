@@ -22,7 +22,7 @@ end
 
 dep 'couchdb user' do
   set :username, 'couchdb'
-  var :home_base, '/usr/local/var/run'
+  set :home_base, '/usr/local/var/run'
   requires 'user exists'
 end
 
