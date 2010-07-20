@@ -1,4 +1,4 @@
-src 'couchdb' do
+dep 'couchdb.src' do
   requires 'help2man', 'libtool', 'erlang', 'libicu', 'spidermonkey', 'libcurl-dev',
            'couchdb user'
   #source 'git://git.apache.org/couchdb.git'

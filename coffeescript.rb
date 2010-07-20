@@ -1,4 +1,4 @@
-src 'coffeescript' do
+dep 'coffeescript.src' do
   requires 'nodejs'
   source 'git://github.com/jashkenas/coffee-script.git'
   provides 'coffee'

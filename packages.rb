@@ -1,22 +1,22 @@
 dep 'libicu' do
   requires {
-    on :osx, 'src libicu'
+    on :osx, 'libicu.src'
     on :linux, 'libicu-dev'
   }
 end
 
-pkg 'libicu-dev' do
+dep 'libicu-dev', :template => 'managed' do
   installs { via :apt, 'libicu-dev' }
   provides []
 end
 
-src 'src libicu' do
+dep 'libicu.src' do
   # TODO fill this in!
 end
 
-pkg 'help2man'
+dep 'help2man', :template => 'managed'
 
-pkg 'libcurl-dev' do
+dep 'libcurl-dev', :template => 'managed' do
   installs {
     via :apt, 'libcurl4-openssl-dev'
   }
@@ -25,12 +25,12 @@ end
 
 dep 'spidermonkey' do
   requires {
-    on :linux, 'src spidermonkey'
-    on :osx, 'pkg spidermonkey'
+    on :linux, 'spidermonkey.src'
+    on :osx, 'spidermonkey.managed'
   }
 end
 
-src 'src spidermonkey' do
+dep 'spidermonkey.src' do
   source 'http://ftp.mozilla.org/pub/mozilla.org/js/js-1.8.0-rc1.tar.gz'
   configure { true } # Noop
   build { shell "make BUILD_OPT=1 -C js/src -f Makefile.ref" }
@@ -38,7 +38,7 @@ src 'src spidermonkey' do
   provides 'js'
 end
 
-pkg 'pkg spidermonkey' do
+dep 'spidermonkey.managed' do
   installs {
     via :brew, 'spidermonkey'
     via :apt, 'libxulrunner-dev'
@@ -46,10 +46,11 @@ pkg 'pkg spidermonkey' do
   provides 'js'
 end
 
-pkg 'erlang' do
+dep 'erlang', :template => 'managed' do
   installs {
     via :brew, 'erlang'
     via :apt, 'erlang-nox', 'erlang-dev'
   }
   provides 'erlc', 'erl'
 end
+
