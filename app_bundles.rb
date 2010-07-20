@@ -3,3 +3,7 @@ dep 'XQuartz.installer' do
   met? { '/Applications/Utilities/XQuartz.app'.p.exists?  }
 end
 
+dep 'SizeUp.app' do
+  source 'http://irradiatedsoftware.com/downloads/SizeUp.zip'
+end
+
