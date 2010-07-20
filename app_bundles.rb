@@ -1,3 +1,7 @@
+dep 'Google Chrome.app' do
+  source 'http://dl.google.com/chrome/mac/beta/GoogleChrome.dmg'
+end
+
 dep 'XQuartz.installer' do
   source 'http://xquartz.macosforge.org/downloads/SL/XQuartz-2.5.1.dmg'
   met? { '/Applications/Utilities/XQuartz.app'.p.exists?  }
