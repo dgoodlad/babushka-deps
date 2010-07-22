@@ -27,3 +27,10 @@ dep 'HTTPScoop.app' do
   source 'http://www.tuffcode.com/releases/HTTPScoop_1.4.3.dmg'
 end
 
+dep 'iTerm.app' do
+  source 'http://downloads.sourceforge.net/project/iterm/iTerm.app/0.10/iTerm_0.10.zip?use_mirror=internode&ts=1279677948'
+end
+
+dep 'Sequel Pro.app' do
+  source 'http://sequel-pro.googlecode.com/files/sequel-pro-0.9.8.dmg'
+end

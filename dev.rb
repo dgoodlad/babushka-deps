@@ -6,3 +6,5 @@ dep 'macvim', :template => 'managed' do
   provides 'mvim'
 end
 
+dep 'tmux', :template => 'managed'
+dep 'dvtm', :template => 'managed'
