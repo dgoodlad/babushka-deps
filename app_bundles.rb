@@ -39,3 +39,9 @@ dep 'Echofon.app' do
   source 'http://www.echofon.com/twitter/mac/bin/Echofon.dmg'
 end
 
+dep 'Growl.installer' do
+  source 'http://growl.cachefly.net/Growl-1.2.1.dmg'
+  pkg_name 'Growl.pkg'
+  provides 'growlnotify'
+end
+
