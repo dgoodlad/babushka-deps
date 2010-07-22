@@ -1,5 +1,5 @@
 dep 'Google Chrome.app' do
-  source 'http://dl.google.com/chrome/mac/beta/GoogleChrome.dmg'
+  source 'http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg'
 end
 
 dep 'XQuartz.installer' do
