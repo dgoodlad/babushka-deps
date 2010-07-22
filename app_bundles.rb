@@ -34,3 +34,8 @@ end
 dep 'Sequel Pro.app' do
   source 'http://sequel-pro.googlecode.com/files/sequel-pro-0.9.8.dmg'
 end
+
+dep 'Echofon.app' do
+  source 'http://www.echofon.com/twitter/mac/bin/Echofon.dmg'
+end
+
