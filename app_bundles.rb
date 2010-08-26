@@ -49,3 +49,11 @@ dep 'Dropbox.app' do
   source 'http://cdn.dropbox.com/Dropbox%200.7.110.dmg'
 end
 
+dep 'LaunchBar.app' do
+  source 'http://www.obdev.at/downloads/launchbar/LaunchBar-5.0.2.dmg'
+end
+
+dep 'Airfoil.app' do
+  source 'http://www.rogueamoeba.com/airfoil/download/Airfoil.zip'
+end
+
