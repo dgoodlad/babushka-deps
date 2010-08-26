@@ -45,3 +45,7 @@ dep 'Growl.installer' do
   provides 'growlnotify'
 end
 
+dep 'Dropbox.app' do
+  source 'http://cdn.dropbox.com/Dropbox%200.7.110.dmg'
+end
+
