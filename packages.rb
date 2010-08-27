@@ -54,3 +54,4 @@ dep 'erlang', :template => 'managed' do
   provides 'erlc', 'erl'
 end
 
+dep 'wget', :template => 'managed'
