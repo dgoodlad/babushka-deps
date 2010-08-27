@@ -57,3 +57,15 @@ dep 'Airfoil.app' do
   source 'http://www.rogueamoeba.com/airfoil/download/Airfoil.zip'
 end
 
+dep 'Skype.app' do
+  source 'http://www.skype.com/go/getskype-macosx.dmg'
+end
+
+dep 'SIMBL.installer' do
+  source 'http://www.culater.net/dl/files/SIMBL-0.9.7a.zip'
+  met? { '/Library/ScriptingAdditions/SIMBL.osax'.p.exists? }
+end
+
+dep 'GitX.app' do
+  source 'http://frim.frim.nl/GitXStable.app.zip'
+end
