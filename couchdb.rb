@@ -1,3 +1,5 @@
+dep 'couchdb', :template => 'managed'
+
 dep 'couchdb.src' do
   requires 'help2man', 'libtool', 'erlang', 'libicu', 'spidermonkey', 'libcurl-dev',
            'couchdb user'
