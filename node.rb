@@ -4,6 +4,7 @@ dep 'nodejs.src' do
 end
 
 dep 'nvm' do
+  requires 'wget'
   met? { "#{ENV['HOME']}/.nvm".p.exist? }
   meet { shell 'git clone git://github.com/creationix/nvm.git ~/.nvm' }
 end
