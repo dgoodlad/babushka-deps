@@ -69,3 +69,32 @@ end
 dep 'GitX.app' do
   source 'http://frim.frim.nl/GitXStable.app.zip'
 end
+
+dep 'VirtualBox.installer' do
+  source 'http://download.virtualbox.org/virtualbox/3.2.8/VirtualBox-3.2.8-64453-OSX.dmg'
+  met? { '/Applications/VirtualBox.app'.p.exists? }
+end
+
+dep 'HTTP Client.app' do
+  source 'http://ditchnet.org/httpclient/dist/HTTPClient.zip'
+end
+
+dep 'LimeChat.app' do
+  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.15.tbz'
+end
+
+dep 'FreeMind.app' do
+  source 'http://downloads.sourceforge.net/project/freemind/freemind/0.8.1/Mac_OS_X_Freemind-0_8_1.dmg?r=http%3A%2F%2Ffreemind.sourceforge.net%2Fwiki%2Findex.php%2FDownload&ts=1283229902&use_mirror=internode'
+end
+
+dep 'Pixelmator.app' do
+  source 'http://pixelmator.s3.amazonaws.com/Pixelmator.zip'
+end
+
+dep 'Acorn.app' do
+  source 'http://static.macheist.com/bundle/mh3/dl/Acorn.zip'
+end
+
+dep 'OmniGraffle.app' do
+  source 'http://www.omnigroup.com/ftp1/pub/software/MacOSX/10.5/OmniGraffle-5.2.3-English.dmg'
+end
