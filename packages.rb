@@ -55,3 +55,7 @@ dep 'erlang', :template => 'managed' do
 end
 
 dep 'wget', :template => 'managed'
+
+dep 'imagemagick.managed' do
+  provides 'convert'
+end
