@@ -98,3 +98,7 @@ end
 dep 'OmniGraffle.app' do
   source 'http://www.omnigroup.com/ftp1/pub/software/MacOSX/10.5/OmniGraffle-5.2.3-English.dmg'
 end
+
+dep 'Firefox.app' do
+  source 'http://mirror.internode.on.net/pub/mozilla/firefox/releases/4.0b4/mac64/en-US/Firefox%204.0%20Beta%204.dmg'
+end
