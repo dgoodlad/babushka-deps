@@ -102,3 +102,15 @@ end
 dep 'Firefox.app' do
   source 'http://mirror.internode.on.net/pub/mozilla/firefox/releases/4.0b4/mac64/en-US/Firefox%204.0%20Beta%204.dmg'
 end
+
+dep 'The Hit List.app' do
+  source 'http://www.potionfactory.com/thehitlist/download/'
+end
+
+dep 'KeyCastr.app' do
+  source 'http://stephendeken.net/software/keycastr/releases/keycastr_0.8.0.dmg'
+end
+
+dep 'Evernote.app' do
+  source 'http://evernote.s3.amazonaws.com/mac/release/Evernote_93489.dmg'
+end

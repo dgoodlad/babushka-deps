@@ -59,3 +59,7 @@ dep 'wget', :template => 'managed'
 dep 'imagemagick.managed' do
   provides 'convert'
 end
+
+dep 'sphinx.managed' do
+  provides 'searchd'
+end
