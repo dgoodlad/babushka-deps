@@ -63,3 +63,13 @@ end
 dep 'sphinx.managed' do
   provides 'searchd'
 end
+
+dep 'geoip.managed' do
+  provides []
+end
+
+dep 'freeimage.managed' do
+  provides []
+end
+
+dep 'tree.managed'
