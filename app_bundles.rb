@@ -114,3 +114,7 @@ end
 dep 'Evernote.app' do
   source 'http://evernote.s3.amazonaws.com/mac/release/Evernote_93489.dmg'
 end
+
+dep 'VMWare Fusion.installer' do
+  source 'https://download2.vmware.com/software/fusion/VMware-Fusion-3.1.1-282344-light.dmg'
+end
