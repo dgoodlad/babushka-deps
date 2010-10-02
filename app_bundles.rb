@@ -118,3 +118,5 @@ end
 dep 'VMWare Fusion.installer' do
   source 'https://download2.vmware.com/software/fusion/VMware-Fusion-3.1.1-282344-light.dmg'
 end
+
+dep 'scummvm.managed'
