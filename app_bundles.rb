@@ -114,3 +114,7 @@ end
 dep 'Evernote.app' do
   source 'http://evernote.s3.amazonaws.com/mac/release/Evernote_93489.dmg'
 end
+
+dep 'Plex.app' do
+  source 'http://ftp.df.lth.se/pub/plex/Plex-v0.9.0.21.dmg'
+end
