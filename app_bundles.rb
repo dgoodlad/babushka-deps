@@ -118,3 +118,7 @@ end
 dep 'Plex.app' do
   source 'http://ftp.df.lth.se/pub/plex/Plex-v0.9.0.21.dmg'
 end
+
+dep 'Tunnelblick.app' do
+  source 'http://tunnelblick.googlecode.com/files/Tunnelblick_3.0.dmg'
+end
