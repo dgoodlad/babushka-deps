@@ -73,3 +73,5 @@ dep 'freeimage.managed' do
 end
 
 dep 'tree.managed'
+
+dep 'pwgen.managed'
