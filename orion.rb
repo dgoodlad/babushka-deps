@@ -16,7 +16,8 @@ dep 'orion' do
            'HTTPScoop.app',
            'Sequel Pro.app',
            'GitX.app',
-           'tmux'
+           'tmux',
+           'VMWare Fusion.installer'
            #'macvim'
 
   requires 'rvm'

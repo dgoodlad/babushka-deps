@@ -122,3 +122,9 @@ end
 dep 'Tunnelblick.app' do
   source 'http://tunnelblick.googlecode.com/files/Tunnelblick_3.0.dmg'
 end
+
+dep 'VMWare Fusion.installer' do
+  source 'https://download2.vmware.com/software/fusion/VMware-Fusion-3.1.1-282344-light.dmg'
+end
+
+dep 'scummvm.managed'
