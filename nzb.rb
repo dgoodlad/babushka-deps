@@ -1,4 +1,5 @@
 dep 'SABnzbd.app' do
+  source 'http://internode.dl.sourceforge.net/project/sabnzbdplus/sabnzbdplus/sabnzbd-0.5.4/SABnzbd-0.5.4-osx.dmg'
 end
 
 dep 'sick-beard' do
