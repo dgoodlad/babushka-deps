@@ -128,3 +128,9 @@ dep 'VMWare Fusion.installer' do
 end
 
 dep 'scummvm.managed'
+
+dep 'Synergy.installer' do
+  source 'http://synergy-plus.googlecode.com/files/synergy-plus-1.3.4-Darwin-i386.dmg'
+  provides 'synergyc', 'synergys'
+  met? { provided? }
+end
