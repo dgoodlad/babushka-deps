@@ -3,6 +3,7 @@ dep 'SABnzbd.app' do
 end
 
 dep 'sick-beard' do
+  requires 'Cheetah.py'
   helper(:install_prefix) { ENV['HOME'].p }
   helper(:install_dir) { "Sick Beard".p }
   met? { (install_prefix / install_dir).dir? }
