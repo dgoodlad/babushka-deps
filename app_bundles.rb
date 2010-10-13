@@ -134,3 +134,7 @@ dep 'Synergy.installer' do
   provides 'synergyc', 'synergys'
   met? { provided? }
 end
+
+dep 'KisMAC.app' do
+  source 'http://update.kismac-ng.org/binaries/KisMAC-0.3.dmg'
+end
