@@ -138,3 +138,7 @@ end
 dep 'KisMAC.app' do
   source 'http://update.kismac-ng.org/binaries/KisMAC-0.3.dmg'
 end
+
+dep 'Boxer.app' do
+  source 'http://boxer.washboardabs.net/download/boxer_0.88-20091018-1.dmg'
+end
