@@ -142,3 +142,7 @@ end
 dep 'Boxer.app' do
   source 'http://boxer.washboardabs.net/download/boxer_0.88-20091018-1.dmg'
 end
+
+dep 'Pixelmator.app' do
+  source 'http://pixelmator.s3.amazonaws.com/Pixelmator.zip'
+end
