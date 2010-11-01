@@ -45,3 +45,23 @@ dep 'meslo.ttf' do
   ttf_filename "MesloLGM-DZ-Regular.ttf"
 end
 
+dep 'user keymap dir exists' do
+  met? {
+    "~/Library/Keyboard Layouts".p.dir?
+  }
+  meet {
+    log_shell "Creating ~/Library/Keyboard Layouts", "mkdir '~/Library/Keyboard Layouts'"
+  }
+end
+
+dep 'colemak' do
+  requires 'user keymap dir exists'
+
+  met? {
+    "~/Library/Keyboard Layouts/Colemak.keylayout".p.exists?
+  }
+
+  meet {
+    log_shell "Downloading Colemak.keylayout", "curl http://colemak.com/pub/mac/Colemak.keylayout > ~/Library/\"Keyboard Layouts\"/Colemak.keylayout"
+  }
+end
