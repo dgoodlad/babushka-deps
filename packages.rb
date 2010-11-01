@@ -75,3 +75,5 @@ end
 dep 'tree.managed'
 
 dep 'pwgen.managed'
+
+dep 'dos2unix.managed'
