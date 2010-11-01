@@ -146,3 +146,7 @@ end
 dep 'Pixelmator.app' do
   source 'http://pixelmator.s3.amazonaws.com/Pixelmator.zip'
 end
+
+dep 'Flux.app' do
+  source 'http://secure.herf.org/flux/Flux.zip'
+end
