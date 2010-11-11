@@ -77,3 +77,11 @@ dep 'tree.managed'
 dep 'pwgen.managed'
 
 dep 'dos2unix.managed'
+
+dep 'htop.managed'
+
+dep 'elinks.managed'
+
+dep 'gnu-typist.managed' do
+  provides 'gtypist'
+end

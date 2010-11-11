@@ -150,3 +150,23 @@ end
 dep 'Flux.app' do
   source 'http://secure.herf.org/flux/Flux.zip'
 end
+
+dep 'Think.app' do
+  source 'http://s3.freeverse.com/Mac/Think/Think.dmg'
+end
+
+dep 'Isolator.app' do
+  source 'http://willmore.eu/software/download/Isolator-4.4.dmg'
+end
+
+dep 'Bonjour Mounter.app' do
+  source 'http://bonjourmounter.gestosoft.com/download/Bonjour%20Mounter%203.0.11.zip'
+end
+
+dep 'Notational Velocity.app' do
+  source 'http://notational.net/NotationalVelocity.zip'
+end
+
+dep 'KeyRemap4MacBook.installer' do
+  source 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.9.0.pkg.zip'
+end
