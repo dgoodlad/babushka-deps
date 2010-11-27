@@ -127,8 +127,6 @@ dep 'VMWare Fusion.installer' do
   source 'https://download2.vmware.com/software/fusion/VMware-Fusion-3.1.1-282344-light.dmg'
 end
 
-dep 'scummvm.managed'
-
 dep 'Synergy.installer' do
   source 'http://synergy-plus.googlecode.com/files/synergy-plus-1.3.4-Darwin-i386.dmg'
   provides 'synergyc', 'synergys'
