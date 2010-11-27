@@ -168,3 +168,7 @@ end
 dep 'KeyRemap4MacBook.installer' do
   source 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.9.0.pkg.zip'
 end
+
+dep 'Rowmote Helper.installer' do
+  source 'http://regularrateandrhythm.com/rowmote-pro/rowmote-helper-3.2.zip'
+end
