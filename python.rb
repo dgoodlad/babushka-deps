@@ -33,7 +33,7 @@ meta 'pip' do
   template {
     met? { provided? }
     meet {
-      log_shell "install", "pip install #{pkg_name}"
+      log_shell "install", "pip install #{pkg_name.first}"
     }
   }
 end
@@ -42,4 +42,8 @@ dep 'Cheetah.py'
 
 dep 'mercurial.pip' do
   provides 'hg'
+end
+
+dep 'pygments.pip' do
+  provides 'pygmentize'
 end
