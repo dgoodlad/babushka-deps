@@ -171,4 +171,11 @@ end
 
 dep 'Rowmote Helper.installer' do
   source 'http://regularrateandrhythm.com/rowmote-pro/rowmote-helper-3.2.zip'
+
+dep 'Reggy.app' do
+  source 'http://github.com/downloads/samsouder/reggy/Reggy_v1.3.tbz'
+end
+
+dep 'Tower.app' do
+  source 'http://macapps.fournova.com/tower1/download'
 end

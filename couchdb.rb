@@ -52,3 +52,6 @@ dep 'couchdb running' do
   end
 end
 
+dep 'couchapp.pip'
+
+dep 'couchdb-lucene.managed'

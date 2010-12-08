@@ -85,3 +85,7 @@ dep 'elinks.managed'
 dep 'gnu-typist.managed' do
   provides 'gtypist'
 end
+
+dep 'ack.managed'
+
+dep 'emacs.managed'
