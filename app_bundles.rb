@@ -171,6 +171,7 @@ end
 
 dep 'Rowmote Helper.installer' do
   source 'http://regularrateandrhythm.com/rowmote-pro/rowmote-helper-3.2.zip'
+end
 
 dep 'Reggy.app' do
   source 'http://github.com/downloads/samsouder/reggy/Reggy_v1.3.tbz'
@@ -179,3 +180,8 @@ end
 dep 'Tower.app' do
   source 'http://macapps.fournova.com/tower1/download'
 end
+
+dep 'Bonjour Browser.app' do
+  source 'http://www.tildesoft.com/files/BonjourBrowser.dmg'
+end
+
