@@ -196,3 +196,31 @@ end
 dep 'gfxCardStatus.app' do
   source 'http://codykrieger.com/downloads/gfxCardStatus-1.8.1.zip'
 end
+
+dep 'Sparrow.app' do
+  source 'http://download.sparrowmailapp.com/release/Sparrow-latest.dmg'
+end
+
+dep 'Kaleidoscope.app' do
+  source 'http://d38sv94p198wrl.cloudfront.net/KSUpdates/1.1.1_44/Kaleidoscope.zip'
+end
+
+dep 'Billings.app' do
+  source 'http://s3.amazonaws.com/marketcircle/Billings361.zip'
+end
+
+dep 'TextExpander.app' do
+  source 'http://cdn.smilesoftware.com/TextExpander_3.2.2.zip'
+end
+
+dep 'DrawIt.app' do
+  source 'http://www.bohemiancoding.com/download/drawit.zip'
+end
+
+dep 'Fontcase.app' do
+  source 'http://www.bohemiancoding.com/download/fontcase.zip'
+end
+
+dep 'Versions.app' do
+  source 'http://versionsapp.com/redirect/versionslatest'
+end
