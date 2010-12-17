@@ -188,3 +188,11 @@ end
 dep 'CoRD.app' do
   source 'http://downloads.sourceforge.net/project/cord/cord/0.5.4/CoRD_0.5.4.zip?r=http%3A%2F%2Fcord.sourceforge.net%2F&ts=1292190033&use_mirror=internode'
 end
+
+dep 'Xbench.app' do
+  source 'http://www.xbench.com/Xbench_1.3.dmg'
+end
+
+dep 'gfxCardStatus.app' do
+  source 'http://codykrieger.com/downloads/gfxCardStatus-1.8.1.zip'
+end
