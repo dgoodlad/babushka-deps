@@ -185,3 +185,6 @@ dep 'Bonjour Browser.app' do
   source 'http://www.tildesoft.com/files/BonjourBrowser.dmg'
 end
 
+dep 'CoRD.app' do
+  source 'http://downloads.sourceforge.net/project/cord/cord/0.5.4/CoRD_0.5.4.zip?r=http%3A%2F%2Fcord.sourceforge.net%2F&ts=1292190033&use_mirror=internode'
+end
