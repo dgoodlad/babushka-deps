@@ -40,9 +40,37 @@ meta 'ttf' do
   }
 end
 
+meta 'otf' do
+  accepts_list_for :source
+  accepts_list_for :extra_source
+  accepts_list_for :otf_filename
+
+  template {
+    requires 'user font dir exists'
+    prepare {
+      setup_source_uris
+    }
+    met? {
+      "~/Library/Fonts/#{otf_filename.first}".p.exists?
+    }
+    meet {
+      process_sources do
+        Dir.glob("*.otf") do |font|
+          log_shell "Installing #{font}", "cp #{font} ~/Library/Fonts"
+        end
+      end
+    }
+  }
+end
+
 dep 'meslo.ttf' do
-  source "http://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip"
+  source 'http://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip'
   ttf_filename "MesloLGM-DZ-Regular.ttf"
+end
+
+dep 'crimson.otf' do
+  source 'http://internode.dl.sourceforge.net/project/crimsontext/crimson_101217.zip'
+  otf_filename "Crimson-Roman.otf"
 end
 
 dep 'user keymap dir exists' do
