@@ -73,6 +73,13 @@ dep 'crimson.otf' do
   otf_filename "Crimson-Roman.otf"
 end
 
+dep 'ROKE1984.otf' do
+  otf_filename "ROKE1984.otf"
+  meet {
+    `curl http://dl.dropbox.com/u/2971204/ROKE1984.otf > ~/Library/Fonts/ROKE1984.otf`
+  }
+end
+
 dep 'user keymap dir exists' do
   met? {
     "~/Library/Keyboard Layouts".p.dir?
@@ -92,4 +99,8 @@ dep 'colemak' do
   meet {
     log_shell "Downloading Colemak.keylayout", "curl http://colemak.com/pub/mac/Colemak.keylayout > ~/Library/\"Keyboard Layouts\"/Colemak.keylayout"
   }
+end
+
+dep 'HEXColorPicker.installer' do
+  source 'http://www.luckysoftware.dk/download.php/HexColorPicker_102.pkg.zip'
 end
