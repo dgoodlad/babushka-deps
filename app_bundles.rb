@@ -228,3 +228,27 @@ end
 dep 'Versions.app' do
   source 'http://versionsapp.com/redirect/versionslatest'
 end
+
+dep 'SuperDuper.app' do
+  source 'http://www.shirt-pocket.com/downloads/SuperDuper%21.dmg'
+end
+
+dep 'Carbon Copy Cloner.app' do
+  source 'http://web.mac.com/bombich/ccc-3.3.7.dmg'
+end
+
+dep 'Backblaze.installer' do
+  source 'http://www.backblaze.com/mac/install_backblaze.dmg'
+end
+
+dep 'Things.app' do
+  source 'http://culturedcode.com/things/download/?e=3102'
+end
+
+dep 'OmniFocus.app' do
+  source 'http://www.omnigroup.com/ftp1/pub/software/MacOSX/10.4/OmniFocus-1.8.2-English.dmg'
+end
+
+dep 'Transmission.app' do
+  source 'http://download.transmissionbt.com/files/Transmission-2.13.dmg'
+end
