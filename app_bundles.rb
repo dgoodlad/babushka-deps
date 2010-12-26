@@ -8,7 +8,7 @@ dep 'XQuartz.installer' do
 end
 
 dep 'SizeUp.app' do
-  source 'http://irradiatedsoftware.com/downloads/SizeUp.zip'
+  source 'http://irradiatedsoftware.com/download/SizeUp.zip'
 end
 
 dep 'iStat Menus.app' do
@@ -28,7 +28,7 @@ dep 'HTTPScoop.app' do
 end
 
 dep 'iTerm.app' do
-  source 'http://downloads.sourceforge.net/project/iterm/iTerm.app/0.10/iTerm_0.10.zip?use_mirror=internode&ts=1279677948'
+  source 'http://iterm2.googlecode.com/files/iTerm2-alpha14.zip'
 end
 
 dep 'Sequel Pro.app' do
@@ -36,17 +36,17 @@ dep 'Sequel Pro.app' do
 end
 
 dep 'Echofon.app' do
-  source 'http://www.echofon.com/twitter/mac/bin/Echofon.dmg'
+  source 'http://file.echofon.com/twitter/mac/bin/Echofon_1.3.1.dmg'
 end
 
 dep 'Growl.installer' do
   source 'http://growl.cachefly.net/Growl-1.2.1.dmg'
-  pkg_name 'Growl.pkg'
+  #pkg_name 'Growl.pkg'
   provides 'growlnotify'
 end
 
 dep 'Dropbox.app' do
-  source 'http://cdn.dropbox.com/Dropbox%200.7.110.dmg'
+  source 'http://cdn.dropbox.com/Dropbox%201.0.10.dmg'
 end
 
 dep 'LaunchBar.app' do
@@ -71,7 +71,7 @@ dep 'GitX.app' do
 end
 
 dep 'VirtualBox.installer' do
-  source 'http://download.virtualbox.org/virtualbox/3.2.8/VirtualBox-3.2.8-64453-OSX.dmg'
+  source 'http://download.virtualbox.org/virtualbox/3.2.12/VirtualBox-3.2.12-68302-OSX.dmg'
   met? { '/Applications/VirtualBox.app'.p.exists? }
 end
 
@@ -124,7 +124,8 @@ dep 'Tunnelblick.app' do
 end
 
 dep 'VMWare Fusion.installer' do
-  source 'https://download2.vmware.com/software/fusion/VMware-Fusion-3.1.1-282344-light.dmg'
+  source 'http://download2.vmware.com/software/fusion/VMware-Fusion-3.1.2-332101-light.dmg'
+  met? { "/Applications/VMWare Fusion.app".p.exists? }
 end
 
 dep 'Synergy.installer' do
@@ -167,6 +168,9 @@ end
 
 dep 'KeyRemap4MacBook.installer' do
   source 'http://pqrs.org/macosx/keyremap4macbook/files/KeyRemap4MacBook-6.9.0.pkg.zip'
+  met? {
+    '/Library/PreferencePanes/KeyRemap4MacBook.prefPane'.p.exist?
+  }
 end
 
 dep 'Rowmote Helper.installer' do
