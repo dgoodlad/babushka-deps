@@ -1,5 +1,5 @@
 dep 'nodejs.src' do
-  source 'git://github.com/ry/node.git'
+  source 'http://nodejs.org/dist/node-v0.2.5.tar.gz'
   provides 'node', 'node-repl', 'node-waf'
 end
 
