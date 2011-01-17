@@ -26,6 +26,7 @@ dep 'orion osx apps installed' do
            'iStat Menus.app',
            'KeyRemap4MacBook.installer',
            'Bonjour Browser.app',
+           'Bonjour Mounter.app',
            'gfxCardStatus.app'
 
   # Tools
@@ -37,7 +38,9 @@ dep 'orion osx apps installed' do
 
   # Development
   requires 'iTerm.app',
+           'Emacs.app',
            'HTTPScoop.app',
+           'HTTP Client.app',
            'Sequel Pro.app',
            'GitX.app',
            'Tower.app',

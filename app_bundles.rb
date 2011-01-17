@@ -252,3 +252,15 @@ end
 dep 'Transmission.app' do
   source 'http://download.transmissionbt.com/files/Transmission-2.13.dmg'
 end
+
+dep 'Hex Fiend.app' do
+  source 'http://ridiculousfish.com/hexfiend/files/HexFiend.dmg'
+end
+
+dep 'TextMate.app' do
+  source 'http://download.macromates.com/TextMate_1.5.10.zip'
+end
+
+dep 'Emacs.app' do
+  source 'http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg'
+end
