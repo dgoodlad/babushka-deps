@@ -71,7 +71,7 @@ dep 'GitX.app' do
 end
 
 dep 'VirtualBox.installer' do
-  source 'http://download.virtualbox.org/virtualbox/3.2.12/VirtualBox-3.2.12-68302-OSX.dmg'
+  source 'http://download.virtualbox.org/virtualbox/4.0.0/VirtualBox-4.0.0-69151-OSX.dmg'
   met? { '/Applications/VirtualBox.app'.p.exists? }
 end
 
@@ -92,7 +92,7 @@ dep 'Pixelmator.app' do
 end
 
 dep 'Acorn.app' do
-  source 'http://static.macheist.com/bundle/mh3/dl/Acorn.zip'
+  source 'http://flyingmeat.com/download/Acorn.zip'
 end
 
 dep 'OmniGraffle.app' do
@@ -159,7 +159,7 @@ dep 'Isolator.app' do
 end
 
 dep 'Bonjour Mounter.app' do
-  source 'http://bonjourmounter.gestosoft.com/download/Bonjour%20Mounter%203.0.11.zip'
+  source 'http://bonjourmounter.gestosoft.com/download/Bonjour%20Mounter%203.0.13.zip'
 end
 
 dep 'Notational Velocity.app' do
