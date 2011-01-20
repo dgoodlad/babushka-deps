@@ -264,3 +264,7 @@ end
 dep 'Emacs.app' do
   source 'http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg'
 end
+
+dep 'All2MP3.app' do
+  source 'http://www.tresrrr.com/Program/All2MP3.zip'
+end
