@@ -268,3 +268,7 @@ end
 dep 'All2MP3.app' do
   source 'http://www.tresrrr.com/Program/All2MP3.zip'
 end
+
+dep 'HandBrake.app' do
+  source 'http://handbrake.fr/rotation.php?file=HandBrake-0.9.5-MacOSX.5_GUI_x86_64.dmg'
+end
