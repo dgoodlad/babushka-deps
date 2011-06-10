@@ -16,11 +16,11 @@ dep 'iStat Menus.app' do
 end
 
 dep 'Alfred.app' do
-  source 'http://media.alfredapp.com/alfred_0.6.6_beta_34.dmg'
+  source 'http://media.alfredapp.com/alfred_0.9_125.dmg'
 end
 
 dep '1Password.app' do
-  source 'http://aws.cachefly.net/aws/dmg/1PW3/English/1Password-3.2.5.dmg'
+  source 'http://aws.cachefly.net/dist/1P/mac/1Password-3.5.9.zip'
 end
 
 dep 'HTTPScoop.app' do
@@ -28,7 +28,7 @@ dep 'HTTPScoop.app' do
 end
 
 dep 'iTerm.app' do
-  source 'http://iterm2.googlecode.com/files/iTerm2-alpha14.zip'
+  source 'http://iterm2.googlecode.com/files/iTerm2-beta2.zip'
 end
 
 dep 'Sequel Pro.app' do
@@ -46,7 +46,7 @@ dep 'Growl.installer' do
 end
 
 dep 'Dropbox.app' do
-  source 'http://cdn.dropbox.com/Dropbox%201.0.10.dmg'
+  source 'http://cdn.dropbox.com/Dropbox%201.1.35.dmg'
 end
 
 dep 'LaunchBar.app' do
@@ -80,7 +80,7 @@ dep 'HTTP Client.app' do
 end
 
 dep 'LimeChat.app' do
-  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.15.tbz'
+  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.24.tbz'
 end
 
 dep 'FreeMind.app' do
@@ -262,7 +262,7 @@ dep 'TextMate.app' do
 end
 
 dep 'Emacs.app' do
-  source 'http://emacsformacosx.com/emacs-builds/Emacs-23.2-universal-10.6.3.dmg'
+  source 'http://emacsformacosx.com/emacs-builds/Emacs-23.3-universal-10.6.6.dmg'
 end
 
 dep 'All2MP3.app' do
