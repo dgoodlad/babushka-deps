@@ -1,13 +1,9 @@
 dep 'rvm' do
-  helper(:path) {
-    "~/.rvm/scripts/rvm"
-  }
-
   met? {
-    path.p.file?
+    "~/.rvm/scripts/rvm".p.file?
   }
 
   meet {
-    shell 'bash -c "`curl http://rvm.beginrescueend.com/releases/rvm-install-head`"'
+    shell 'bash -c "`curl https://rvm.beginrescueend.com/install/rvm`"'
   }
 end
