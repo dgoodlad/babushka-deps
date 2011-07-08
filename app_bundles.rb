@@ -92,7 +92,7 @@ dep 'Pixelmator.app' do
 end
 
 dep 'Acorn.app' do
-  source 'http://flyingmeat.com/download/Acorn.zip'
+  source 'http://flyingmeat.com/download/Acorn-2.6.4.zip'
 end
 
 dep 'OmniGraffle.app' do
