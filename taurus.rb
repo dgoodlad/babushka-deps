@@ -6,9 +6,10 @@ dep 'taurus' do
   requires 'macvim',
            'ack.managed',
            'tree.managed',
-           'rvm'
-
-           'meslo.ttf'
+           'rvm',
+           'meslo.ttf',
+           'redis',
+           'htop'
 end
 
 dep 'taurus osx apps installed' do
@@ -32,6 +33,7 @@ dep 'taurus osx apps installed' do
 
   # Development
   requires 'iTerm.app',
+           'DTerm.app',
            'Emacs.app',
            'HTTPScoop.app',
            'HTTP Client.app',
