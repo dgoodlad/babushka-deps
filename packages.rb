@@ -89,3 +89,9 @@ end
 dep 'ack.managed'
 
 dep 'emacs.managed'
+
+dep 'redis', :template => 'managed' do
+  provides 'redis-cli'
+end
+
+dep 'htop', :template => 'managed'
