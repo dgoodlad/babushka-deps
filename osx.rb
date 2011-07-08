@@ -104,3 +104,13 @@ end
 dep 'HEXColorPicker.installer' do
   source 'http://www.luckysoftware.dk/download.php/HexColorPicker_102.pkg.zip'
 end
+
+dep 'Pow' do
+  met? {
+    "~/Library/Application Support/Pow/Current".p.exists?
+  }
+
+  meet {
+    log_shell "Installing Pow", "curl get.pow.cx | sh"
+  }
+end
