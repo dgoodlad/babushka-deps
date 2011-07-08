@@ -41,5 +41,6 @@ dep 'taurus osx apps installed' do
            'GitX.app',
            'Tower.app',
            'Kaleidoscope.app',
-           'Reggy.app'
+           'Reggy.app',
+           'Pow'
 end
