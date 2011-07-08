@@ -272,3 +272,19 @@ end
 dep 'HandBrake.app' do
   source 'http://handbrake.fr/rotation.php?file=HandBrake-0.9.5-MacOSX.5_GUI_x86_64.dmg'
 end
+
+dep 'Keka.app' do
+  source 'http://download.kekaosx.com/'
+end
+
+dep 'VLC.app' do
+  source 'http://sourceforge.net/projects/vlc/files/1.1.10.1/macosx/vlc-1.1.10.1.dmg/download'
+end
+
+dep 'xScope.app' do
+  source 'http://iconfactory.com/assets/software/xscope/xScope_222.zip'
+end
+
+dep 'DTerm.app' do
+  source 'http://files.decimus.net/DTerm/DTerm.zip'
+end
