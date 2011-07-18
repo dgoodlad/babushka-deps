@@ -95,3 +95,7 @@ dep 'redis', :template => 'managed' do
 end
 
 dep 'htop', :template => 'managed'
+
+dep 'ejabberd', :template => 'managed' do
+  provides 'ejabberdctl'
+end
