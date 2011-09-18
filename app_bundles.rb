@@ -16,7 +16,7 @@ dep 'iStat Menus.app' do
 end
 
 dep 'Alfred.app' do
-  source 'http://media.alfredapp.com/alfred_0.9_125.dmg'
+  source 'http://media.alfredapp.com/alfred_0.9.10_152.dmg'
 end
 
 dep '1Password.app' do
@@ -80,7 +80,7 @@ dep 'HTTP Client.app' do
 end
 
 dep 'LimeChat.app' do
-  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.24.tbz'
+  source 'http://cloud.github.com/downloads/psychs/limechat/LimeChat_2.28.tbz'
 end
 
 dep 'FreeMind.app' do
@@ -287,4 +287,12 @@ end
 
 dep 'DTerm.app' do
   source 'http://files.decimus.net/DTerm/DTerm.zip'
+end
+
+dep 'Spotify.app' do
+  source 'http://download.spotify.com/Spotify.dmg'
+end
+
+dep 'Arq.app' do
+  source 'http://www.haystacksoftware.com/arq/Arq.zip'
 end
