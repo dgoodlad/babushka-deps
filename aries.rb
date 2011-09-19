@@ -17,6 +17,10 @@ dep 'aries' do
   # Ruby versions
   requires 'rbenv',
            '1.9.2-p290.rbenv'
+
+  # Nodejs
+  requires 'node',
+           'personal:npm' # Hack to avoid core deps conflict
 end
 
 dep 'aries osx apps installed' do
