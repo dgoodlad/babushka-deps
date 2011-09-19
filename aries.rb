@@ -10,10 +10,13 @@ dep 'aries' do
   requires 'macvim',
            'ack.managed',
            'tree.managed',
-           'rvm',
            'meslo.ttf',
            'redis',
            'htop'
+
+  # Ruby versions
+  requires 'rbenv',
+           '1.9.2-p290.rbenv'
 end
 
 dep 'aries osx apps installed' do
