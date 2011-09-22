@@ -278,7 +278,7 @@ dep 'Keka.app' do
 end
 
 dep 'VLC.app' do
-  source 'http://sourceforge.net/projects/vlc/files/1.1.10.1/macosx/vlc-1.1.10.1.dmg/download'
+  source 'http://downloads.sourceforge.net/project/vlc/1.1.11/macosx/vlc-1.1.11-intel64.dmg'
 end
 
 dep 'xScope.app' do
