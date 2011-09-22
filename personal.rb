@@ -13,3 +13,23 @@ end
 
 dep 'dot-files', :template => 'dotfiles'
 dep 'private-dot-files', :template => 'dotfiles'
+
+dep 'projects' do
+  met? {
+    (ENV['HOME'] / "Projects").dir?
+  }
+
+  meet {
+    log_shell "Make ~/Projects", 'mkdir ~/Projects'
+  }
+end
+
+dep 'dev symlinked to projects' do
+  met? {
+    (ENV['HOME'] / 'dev').symlink?
+  }
+
+  meet {
+    log_shell "Symlink ~/dev", 'ln -s $HOME/Projects $HOME/dev'
+  }
+end

@@ -1,6 +1,7 @@
 # My Macbook Air 4,2 13", 'aries'
 
 dep 'aries' do
+  requires 'projects', 'dev symlinked to projects'
   requires 'dot-files', 'private-dot-files'
 
   requires 'aries osx apps installed'
