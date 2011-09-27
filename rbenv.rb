@@ -51,3 +51,5 @@ meta :rbenv do
 end
 
 dep '1.9.2-p290.rbenv'
+
+dep '1.9.3-rc1.rbenv'
